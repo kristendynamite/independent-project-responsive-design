@@ -219,10 +219,6 @@ clear: both;
    .girls-image {
      float: right;
    }
-/*
-   .boy {
-     clear: both;
-   }*/
 
    .gallery-item-big{
       overflow-y: hidden;
@@ -233,13 +229,60 @@ clear: both;
 
  /*Large screens*/
 
- @media only screen and (min-width : 1440px) {
+ @media only screen and (min-width : 1000px) {
    /*.gallery {
      padding: 0;
-   }
+   }*/
+
    .gallery-item {
-     height: 37.3vh;
-     width: 24vw;
-     margin: 1vh 1.3vw;
+     /*clear: none;*/
+     max-width: 16vw;
+     min-height: 39vh;
+     /*min-height: 45vh;*/
    }
- }*/
+
+   .row-1 {
+     clear:none;
+   }
+
+   .youtube-image {
+     float: right;
+   }
+
+   .hands-image {
+     float: right;
+   }
+
+   .large-row-1 {
+     display:block;
+     background: darksalmon;
+     overflow: auto;
+   }
+
+   .marketing {
+     float: left;
+     max-width:47vw;
+   }
+
+   .streaming-image {
+     float: left;
+   }
+
+   .girls-image {
+     float: left;
+   }
+
+
+
+   .large-row-2 {
+     display: block;
+     background: darkseagreen;
+   }
+
+   .gallery-item-big{
+      overflow-y: hidden;
+      clear: none;
+      padding-bottom: 2em;
+   }
+
+   }
