@@ -1,0 +1,112 @@
+/* WIREFRAME TESTING */
+
+/* This section will create dashed borders around all elements, uncomment the below code when building layout */
+
+:not(body):not(html) {
+  box-sizing:border-box;
+  border:1px dashed #000;
+}
+
+
+/* END WIREFRAME TESTING */
+
+
+/* GLOBAL STYLES */
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+     box-sizing: border-box;
+}
+
+body {
+  color: #222;
+  /*max-width: 600px;*/
+  height: 96vh;
+  width: 96vw;
+
+  margin: 2vh 0;
+  /*Apply Google Font*/
+  font-family: 'Roboto', sans-serif;;
+
+  /* Full background */
+  /*background: url('../img/unsplash01.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;*/
+}
+
+  /* Default Google font stylings for all H tags */
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 0.1rem;
+  text-align: left;
+}
+
+  /*Link styles*/
+
+.container {
+  background: paleturquoise;
+  /*width: 90vw;
+  height: 96vh;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 2vh 2vw;*/
+}
+.gallery {
+  /*width: 80vw;
+  height: 79vh;*/
+  background: lightgrey;
+  /*overflow: auto;
+  /*padding: 2vh 2vw;*/
+  margin: 0 auto;
+  margin-top: 2vh;*/
+}
+.gallery-item {
+  /*float: left;
+  width: 60vw;
+  height: 11vh;*/
+  /*padding: 1vh 1vw;*/
+  background: mistyrose;
+  /*margin: 1vh 10vw;*/
+}
+
+ /* Clearfix */
+
+.clearfix {
+content: "";
+display: table;
+clear: both;
+}
+
+
+/* MEDIA QUERIES */
+
+/* Medium Devices, Wide Screens */
+ @media only screen and (min-width : 800px) {
+   /*.gallery {
+     padding: 0;
+   }
+   .gallery-item {
+     height: 24vh;
+     width: 30vw;
+     margin: 1vh 4.7vw;
+   }
+ }*/
+
+ /*Large screens*/
+
+ @media only screen and (min-width : 1440px) {
+   /*.gallery {
+     padding: 0;
+   }
+   .gallery-item {
+     height: 37.3vh;
+     width: 24vw;
+     margin: 1vh 1.3vw;
+   }
+ }*/
