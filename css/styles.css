@@ -40,23 +40,61 @@ body {
 }
 
   /* Default Google font stylings for all H tags */
-
-h1, h2, h3, h4, h5, h6 {
+/*
+h2 h3 {
   font-family: 'Roboto', sans-serif;
   letter-spacing: 0.1rem;
   text-align: left;
+  color: #262626;
+}*/
+
+
+h2, h3 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+  text-align: left;
+}
+
+h4 {
+  font-family: 'Roboto', sans-serif;
+  font-weight:300;
+  text-align: left;
+  margin-bottom: 1em;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+  font-size: 0.7em;
 }
 
   /*Link styles*/
 
 .container {
   background: paleturquoise;
-  /*width: 90vw;
-  height: 96vh;
+  width: 90vw;
+  /*height: 96vh;*/
   margin: 0 auto;
-  overflow: hidden;
-  padding: 2vh 2vw;*/
+  overflow: auto;
+  padding: 2vh 2vw;
 }
+
+.logo-nav {
+  float: left;
+}
+
+img #nav-icon {
+  float: left;
+}
+
+h2 "think"{
+  float: left;
+}
+
+.hourglass {
+  float: right;
+}
+
 .gallery {
   /*width: 80vw;
   height: 79vh;*/
@@ -64,15 +102,48 @@ h1, h2, h3, h4, h5, h6 {
   /*overflow: auto;
   /*padding: 2vh 2vw;*/
   margin: 0 auto;
-  margin-top: 2vh;*/
+  overflow: auto;
 }
 .gallery-item {
   /*float: left;
   width: 60vw;
   height: 11vh;*/
   /*padding: 1vh 1vw;*/
-  background: mistyrose;
-  /*margin: 1vh 10vw;*/
+  background: white;
+  margin: 1vh 1vw;
+}
+
+.gallery-item-big img {
+  max-width: 100%;
+}
+
+.gallery-item-big {
+  display:block;
+  padding: 1vh 1vw;
+  overflow: auto;
+}
+
+.gallery-item img {
+  max-width: 35%;
+  margin: 2%;
+
+}
+
+.youtube-image img {
+  float: left;
+}
+
+.big-image-caption {
+  margin-top: -12vh;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  color: white;
+}
+
+.gallery-item #image-caption {
+  float: right;
+  max-width: 60%;
+  padding: 2.5%;
 }
 
  /* Clearfix */
