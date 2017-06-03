@@ -1,12 +1,12 @@
 /* WIREFRAME TESTING */
 
 /* This section will create dashed borders around all elements, uncomment the below code when building layout */
-
+/*
 :not(body):not(html) {
   box-sizing:border-box;
   border:1px dashed #000;
 }
-
+*/
 
 /* END WIREFRAME TESTING */
 
@@ -22,10 +22,12 @@
 }
 
 body {
-  color: #222;
+  background: #f5f5f5;
+  color: #424242;
   /*max-width: 600px;*/
   height: 96vh;
   width: 96vw;
+  line-height: 1.2;
 
   margin: 2vh 0;
   /*Apply Google Font*/
@@ -39,16 +41,6 @@ body {
   background-size: cover;*/
 }
 
-  /* Default Google font stylings for all H tags */
-/*
-h2 h3 {
-  font-family: 'Roboto', sans-serif;
-  letter-spacing: 0.1rem;
-  text-align: left;
-  color: #262626;
-}*/
-
-
 h2, h3 {
   font-family: 'Roboto', sans-serif;
   font-weight: normal;
@@ -57,7 +49,7 @@ h2, h3 {
 
 h4 {
   font-family: 'Roboto', sans-serif;
-  font-weight:300;
+  font-weight:400;
   text-align: left;
   margin-bottom: 1em;
 }
@@ -68,10 +60,8 @@ p {
   font-size: 0.7em;
 }
 
-  /*Link styles*/
-
 .container {
-  background: paleturquoise;
+  /*background: #f5f5f5;*/
   width: 90vw;
   /*height: 96vh;*/
   margin: 0 auto;
@@ -79,26 +69,32 @@ p {
   padding: 2vh 2vw;
 }
 
-.logo-nav {
+.header {
+  margin: 0 auto;
+  padding: 2vh 2vw;
+}
+.bars {
   float: left;
 }
 
-img #nav-icon {
+.think {
   float: left;
+  padding-left: 1em;
 }
 
-h2 "think"{
-  float: left;
-}
-
-.hourglass {
+.search-icon {
   float: right;
+}
+
+.words {
+  margin-top: 10vh;
+  margin-bottom: 10vh;
 }
 
 .gallery {
   /*width: 80vw;
   height: 79vh;*/
-  background: lightgrey;
+  background: #f5f5f5;
   /*overflow: auto;
   /*padding: 2vh 2vw;*/
   margin: 0 auto;
@@ -110,7 +106,12 @@ h2 "think"{
   height: 11vh;*/
   /*padding: 1vh 1vw;*/
   background: white;
-  margin: 1vh 1vw;
+  margin: 2vh 1vw;
+  box-shadow: 0px 3px 3px rgba(108, 108, 109, 0.2);
+}
+
+.gallery-item p{
+  color: #8d8d8d;
 }
 
 .gallery-item-big img {
@@ -120,7 +121,7 @@ h2 "think"{
 .gallery-item-big {
   display:block;
   padding: 1vh 1vw;
-  overflow: auto;
+  overflow-y: hidden;
 }
 
 .gallery-item img {
@@ -174,14 +175,6 @@ clear: both;
      margin: 0 auto;
    }
 
-   .gallery-item-big img {
-     z-index: -10;
-   }
-
-   .darken-image {
-     background: rgba(70, 72, 82, 0.6);
-   }
-
    .gallery-item #image-caption {
      max-width: 100%;
      padding: 1.5em;
@@ -229,14 +222,20 @@ clear: both;
 
  /*Large screens*/
 
- @media only screen and (min-width : 1000px) {
+ @media only screen and (min-width : 1050px) {
    /*.gallery {
      padding: 0;
    }*/
 
+   body {
+     background-image: url(../img/map-background.jpg);
+     background-repeat: no-repeat;
+     background-size: contain;
+   }
+
    .gallery-item {
      /*clear: none;*/
-     max-width: 16vw;
+     max-width: 22%;
      min-height: 39vh;
      /*min-height: 45vh;*/
    }
@@ -255,13 +254,12 @@ clear: both;
 
    .large-row-1 {
      display:block;
-     background: darksalmon;
      overflow: auto;
    }
 
    .marketing {
      float: left;
-     max-width:47vw;
+
    }
 
    .streaming-image {
@@ -272,17 +270,19 @@ clear: both;
      float: left;
    }
 
-
-
    .large-row-2 {
      display: block;
-     background: darkseagreen;
    }
 
    .gallery-item-big{
       overflow-y: hidden;
       clear: none;
       padding-bottom: 2em;
+       max-width:50%;
+   }
+
+   .boy {
+     float: right;
    }
 
    }

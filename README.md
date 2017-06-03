@@ -1,28 +1,22 @@
-# _Basic Gallery - Responsive Design_
+#### Independent Project - CSS - Responsive Design
 
-#### Week 2 Project - CSS
-
-#### By **Rose Sponseller and Kristen McKee, May 31, 2017**
+#### By **Kristen McKee, June 2, 2017**
 
 ## Description
 
-This project incorporates a responsive design pattern for a Basic Gallery that will adjust depending on three different breakpoints.
+This project incorporates a responsive design pattern that will adjust depending on three different breakpoints.
 
-This website layout follows a popular design pattern: simple rectangles arranged evenly on a solid background. This format is super easy to reflow as the viewport changes. You simply have to reduce the number of columns a few times.
+This website layout follows the design of the think with Google webpage.
 
 ## Setup/Installation Requirements
 
 * Open CMD/Terminal
-* git clone `https://github.com/avocadobravado/basic-gallery`
+* git clone `https://github.com/kristendynamite/independent-project-responsive-design`
 * Open index.html file in a browser such as Google Chrome
 
 OR...
 
-* View on gh-pages at [https://avocadobravado.github.io/basic-gallery](https://avocadobravado.github.io/basic-gallery)
-
-## Screenshot of Project
-
-![Basic Gallery](https://github.com/avocadobravado/basic-gallery/blob/master/img/scs.png?raw=true)
+* View on gh-pages at [https://kristendynamite.github.io/independent-project-responsive-design](https://kristendynamite.github.io/independent-project-responsive-design)
 
 ## How to Use
 
@@ -30,7 +24,7 @@ OR...
 
 ## Support and contact details
 
-* Feel free to reach out with suggestions at rosesponseller@gmail.com
+* Feel free to reach out with suggestions at kristen.dynamite@gmail.com
 
 ## Technologies Used
 
@@ -42,9 +36,10 @@ OR...
 **Other Technologies:**
 
 * Google Fonts
+* Font Awesome
 
 ## License
 
 This project is licensed under the MIT License
 
-**_Rose Sponseller and Kristen McKee** Copyright (c) 2017
+**_Kristen McKee** Copyright (c) 2017
