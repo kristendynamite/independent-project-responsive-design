@@ -11,16 +11,12 @@ This website layout follows the design of the think with Google webpage.
 ## Setup/Installation Requirements
 
 * Open CMD/Terminal
-* git clone `https://github.com/kristendynamite/independent-project-responsive-design`
+* git clone `https://github.com/kristendynamite/independent-project-responsive-design.git`
 * Open index.html file in a browser such as Google Chrome
 
 OR...
 
-* View on gh-pages at [https://kristendynamite.github.io/independent-project-responsive-design](https://kristendynamite.github.io/independent-project-responsive-design)
-
-## How to Use
-
-* Open index.html in a web browser such as Google Chrome
+* View on rawgit at [http://rawgit.com/kristendynamite/independent-project-responsive-design/master/index.html](http://rawgit.com/kristendynamite/independent-project-responsive-design/master/index.html)
 
 ## Support and contact details
 
@@ -42,4 +38,4 @@ OR...
 
 This project is licensed under the MIT License
 
-**_Kristen McKee** Copyright (c) 2017
+**Kristen McKee** Copyright (c) 2017
